@@ -12,7 +12,7 @@ A Web3 photo sharing platform built with UCANs (User Controlled Authorization Ne
 
 ## 🚀 Live Demo
 
-Visit the deployed app: [https://your-app.vercel.app](https://your-app.vercel.app)
+Visit the deployed app: [https://photo-sharing-rfkgj62xw-ashitoshs-projects.vercel.app](https://photo-sharing-rfkgj62xw-ashitoshs-projects.vercel.app)
 
 ## 🛠️ Tech Stack
 
