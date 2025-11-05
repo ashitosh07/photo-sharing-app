@@ -92,10 +92,12 @@ export default function Home() {
       const result = await response.json()
       if (result.success) {
         console.log('Share result:', result)
-        const shareMessage = `Photo shared successfully!\n\nShare URL: ${result.shareURL}\n\nLink copied to clipboard.`
+        // Fix the share URL to use current domain
+        const correctShareURL = result.shareURL.replace('http://localhost:5173', window.location.origin)
+        const shareMessage = `Photo shared successfully!\n\nShare URL: ${correctShareURL}\n\nLink copied to clipboard.`
         alert(shareMessage)
         showNotification('Photo shared successfully! Link copied to clipboard.', 'success')
-        navigator.clipboard.writeText(result.shareURL)
+        navigator.clipboard.writeText(correctShareURL)
         setSharing({ photoCID: '', recipientDID: '', permissions: ['view'], expirationDays: 30 })
       } else {
         showNotification('Share failed: ' + result.error, 'error')
