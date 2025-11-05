@@ -266,7 +266,7 @@ Visit `http://localhost:5173` and experience decentralized photo sharing firstha
 
 - [UCAN Specification](https://ucan.xyz/)
 - [Storacha Documentation](https://storacha.network/)
-- [Project Repository](https://github.com/your-repo)
+- [Project Repository](https://github.com/ashitosh07/photo-sharing-app)
 - [Live Demo](https://photo-sharing-li2j3qu0m-ashitoshs-projects.vercel.app)
 
 ---
